@@ -19,7 +19,7 @@ def prompt_new_entry():
     prompts the user to enter what they have learned and the date in a second prompt.
     :return: None
     """
-    entry_content = input("What have you learning today? ")
+    entry_content = input("What have you learned today? ")
     entry_date = input("Enter the date: ")
     add_entry(entry_content, entry_date)
 
